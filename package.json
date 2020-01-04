@@ -1,6 +1,6 @@
 {
   "name": "@napopravku/cycle2.carousel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Napopravku cycle2.carousel",
   "main": "dist/cycle2.carousel.min.js",
   "files": [
