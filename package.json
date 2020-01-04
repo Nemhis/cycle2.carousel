@@ -1,0 +1,28 @@
+{
+  "name": "@napopravku/cycle2.carousel",
+  "version": "0.0.1",
+  "description": "Napopravku cycle2.carousel",
+  "main": "dist/cycle2.carousel.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "deploy": "npm publish --access public",
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --optimize-minimize --mode production --progress --profile --colors --config webpack.prod.js"
+  },
+  "repository": "Nemhis/cycle2.carousel",
+  "author": "nemhis <p.kurapov@napopravku.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nemhis/cycle2.carousel/issues"
+  },
+  "homepage": "https://github.com/Nemhis/cycle2.carousel#readme",
+  "devDependencies": {
+    "webpack": "4.41.4",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1",
+    "webpack-merge": "4.2.2"
+  },
+  "dependencies": {}
+}
