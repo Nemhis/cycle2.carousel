@@ -1,6 +1,6 @@
 import jQuery from 'jquery';
 
-export const isSlideCountError = (error) => {
+export var isSlideCountError = function (error) {
     return error.message === "Cannot read property 'slideCount' of undefined";
 };
 

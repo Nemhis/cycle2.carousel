@@ -24,5 +24,8 @@
     "webpack-dev-server": "3.10.1",
     "webpack-merge": "4.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery.cycle2": "2.1.7",
+    "jquery.cycle2.swipe": "1.0.0"
+  }
 }

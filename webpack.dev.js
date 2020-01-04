@@ -5,7 +5,10 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
     mode: `development`,
-    entry: `./src/index.js`,
+    entry: {
+        'cycle2.carousel': `./src/index.js`,
+        'cycle2.swipe-carousel': './src/index-swipe.js'
+    },
     devtool: `source-map`,
     devServer: {
         contentBase: path.join(__dirname, `dist`),
